@@ -1,11 +1,14 @@
 /* Typography */
 
 body, .sanserif {
-    font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
 }
 
 p, .serif {
-    font-family: "Cardo", Georgia, serif;
+	/* font-family: "Cardo", Georgia, serif; */
+	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 11.5px;
 }
 
 h1,
