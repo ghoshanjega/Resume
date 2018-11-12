@@ -9,7 +9,8 @@
 (function() {
     var VERSION = 1.2;
 
-    var USE_CONTENTEDITABLE = !('designMode' in document);
+    // var USE_CONTENTEDITABLE = !('designMode' in document);
+    var USE_CONTENTEDITABLE = false;
 
     // Source https://stackoverflow.com/questions/494143/creating-a-new-dom-element-from-an-html-string-using-built-in-dom-methods-or-pro
     function htmlToElement(html) {
