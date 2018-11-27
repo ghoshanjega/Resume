@@ -292,3 +292,18 @@ li .fa, li .fab {
     margin: 10px;
     width: 40px;
   }
+
+  .button-3d {
+      margin-bottom: 10%;
+      color: #ffffff;
+  }
+
+  #go-to-website{
+      display: inline-block;
+      border: 1px solid white;
+      background-image: linear-gradient(to right, rgb(45, 187, 187) , rgb(55, 130, 251));
+      padding: 5px;
+      font-size: 80%;
+      color: #ffffff;
+      border-radius: 10px;
+  }

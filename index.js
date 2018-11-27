@@ -145,6 +145,7 @@
         var docControlsStr =
             `<!-- Document control buttons-->
             <div id="document-controls">
+                <a href="https://ghoshan.me"><button class="button button-action button-3d button-pill button-small">ghoshan.me</button></a>
                 <button class="button button-primary button-pill button-small" data-action="clear" title="Remove saved draft">Clear draft</button>
                 <button class="button button-primary button-pill button-small" data-action="save" title="Download as HTML">Save HTML</button>
                 <button class="button button-primary button-pill button-small" data-action="print" title="Print">Print</button>
@@ -219,8 +220,8 @@
                 node.setAttribute('spellcheck', 'true');
             }
         } else {
-            document.body.setAttribute('spellcheck', 'true');
-            document.designMode = 'on';
+            document.body.setAttribute('spellcheck', 'false');
+            document.designMode = 'off';
         }
 
         if (hasLocalStorage) {
