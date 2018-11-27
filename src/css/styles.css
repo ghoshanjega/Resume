@@ -301,9 +301,9 @@ li .fa, li .fab {
   #go-to-website{
       display: inline-block;
       border: 1px solid white;
-      background-image: linear-gradient(to right, rgb(45, 187, 187) , rgb(55, 130, 251));
-      padding: 5px;
-      font-size: 80%;
+      background-image: linear-gradient(to right, rgb(113, 211, 211) , rgba(110, 157, 231, 0.876));
+      padding: 3px 5px;
+      font-size: 60%;
       color: #ffffff;
       border-radius: 10px;
   }
