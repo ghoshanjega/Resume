@@ -29,6 +29,10 @@ $(document).ready(function () {
         content: document.querySelector('#cicdTemplate'),
     });
 
+    tippy('#validationone', {
+        content: document.querySelector('#validationoneTemplate'),
+    });
+
     tippy('#rm', {
         content: document.querySelector('#rmTemplate'),
     });
