@@ -322,7 +322,7 @@
     }
 
     if (hasLocalStorage) {
-        restoreSavedPage();
+        // restoreSavedPage();
         addDocumentControls();
         bindDocumentControls();
     }
