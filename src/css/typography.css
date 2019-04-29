@@ -5,6 +5,15 @@ body, .sanserif {
 	font-size: 14px;
 }
 
+body, .sanserifsmall {
+	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.tabbed {
+	padding-left: 1em;
+}
+
 p, .serif {
 	/* font-family: "Cardo", Georgia, serif; */
 	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
