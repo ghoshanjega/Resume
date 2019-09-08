@@ -14,6 +14,10 @@ body, .sanserifsmall {
 	padding-left: 1em;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 p, .serif {
 	/* font-family: "Cardo", Georgia, serif; */
 	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
