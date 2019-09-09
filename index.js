@@ -7,6 +7,7 @@
  * disable access to localStorage.
  */
 (function() {
+    console.log("Hello there :)")
     var VERSION = 1.2;
 
     // var USE_CONTENTEDITABLE = !('designMode' in document);
