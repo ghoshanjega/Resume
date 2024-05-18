@@ -58,6 +58,7 @@ button:-moz-focusring,
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         -webkit-print-color-adjust: exact;
+        
     }
     button{
         display: none !important;

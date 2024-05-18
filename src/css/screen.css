@@ -1,54 +1,59 @@
 html {
-    padding: 2.4em;
+  padding: 2.4em;
 }
 
 .sheet {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 section:first-of-type > aside {
-    background-color: white;
-    background-image: url("../img/wave3.jpg");
-    background-repeat: repeat;
-    background-size: 250px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    padding-bottom: 25px;
-
+  background-color: white;
+  background-image: url('../img/wave3.jpg');
+  background-repeat: repeat;
+  background-size: 250px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-bottom: 25px;
 }
 
 #save > section:first-of-type aside .skills > ul > li > span {
-    background-color: white;
+  background-color: white;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 
 /* button {
     user-select: none;
 } */
 
 #document-controls {
-    position: fixed;
-    right: 0;
-    top: 0;
-    margin-top: 0.5em;
-    margin-right: 0.5em;
-    display: flex;
-    flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  display: flex;
+  flex-direction: column;
 }
 
 #document-controls button + button {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 #github-link {
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    margin-top: 0.5em;
-    margin-left: 0.5em;
-    text-decoration: none;
-    color: black;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  text-decoration: none;
+  color: black;
 }
 
 /* Source https://www.bestcssbuttongenerator.com/#/36 */

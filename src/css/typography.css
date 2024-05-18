@@ -9,7 +9,7 @@ body,
 body,
 .sanserifsmall {
   font-family: 'Montserrat', 'Trebuchet MS', Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .tabbed {
@@ -78,9 +78,9 @@ h6 {
   letter-spacing: 0;
   /* line-height: 1.4; */
   margin-bottom: 5px;
-  background-color: rgba(255, 255, 255, 0.5);
+  /* background-color: rgba(255, 255, 255, 0.5);
   padding: 2px;
   border-radius: 16px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); */
 }
 
